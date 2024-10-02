@@ -84,7 +84,7 @@ export default function Sidebar() {
 
   const handleEcommerce=()=>{
     return(
-<OrderList color={color} bgcolor={bgcolor}/>
+<OrderList color={color} bgcolor={bgcolor} theame={theame}/>
     )
   }
 

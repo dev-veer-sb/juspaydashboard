@@ -280,7 +280,7 @@ export default function OrderList(props) {
 
   return (
     <Box sx={{ width: '65vw' }}>
-      <Paper sx={{ width: '100%', mb: 2,background:props.bgcolor,color:props.color }}>
+      <Paper sx={{ width: '100%', mb: 2,background:props.theame==='Light'?props.bgcolor:'#262424',color:props.color }}>
         <EnhancedTableToolbar numSelected={selected.length} />
         <TableContainer>
           <Table
